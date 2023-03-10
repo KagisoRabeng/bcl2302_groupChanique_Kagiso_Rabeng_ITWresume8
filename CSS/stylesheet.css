@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+}
+
+#body {
+    border-style: solid;
+    border-color: rgb(31, 43, 54);
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+
+
+#headerone {
+    background-color: #FBD686;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger; 
+    width: 1500px;
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+}
+
+p {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bold;
+    bottom: 80px;
+    left: 100px
+    
+}
+
+
+h1 {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background-color: teal;
+    border: solid;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.article {
+    color: rgb(31, 43, 54);
+    margin: 0;
+    padding: 60px;
+}
+
+
+#footerone {
+    margin: 60px;
+    margin-top: -100px;
+    padding-top: 0px;
+}
+
+.education {
+    flex: 1;
+
+}
+
+.experience {
+    flex: 1;
+}
+
+.skills {
+    flex: 1;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.aside {
+    text-align: center;
+    padding: 100px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+ 
+ ul {
+    list-style-type: circle;
+}
+
+.subject {
+    margin: 30px;
+    margin-top: 0px;
+    padding-top: 0px; 
+}
+
+
+header{
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    border: ridge;
+    border-color: #FBD686;
+}
+
+/********************MOBILE************************/
+
+@media screen  and (max-width: 769px) { 
+    body {
+        margin: 0;
+    }
+    #body {
+        background-color: #83C5BE;
+    }
+
+    header {
+        padding-bottom: 100px;
+    }
+
+    .picture {
+        height: 150px;
+        width: 150px;
+    }
+
+    h2 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        background-color: #006D77;
+        border: solid;
+        border-color: black;
+    }
+    
+    .section {
+        display: contents;
+    }
+    
+    .article {
+        color: rgb(31, 43, 54);
+        margin: 0;
+        padding: 0px;
+    }
+
+    p {
+        padding-left: 40px;
+        padding-right: 20px;
+        font-weight: bolder;
+        bottom: 80px;
+        left: 100px
+        
+    }
+
+    ul{
+        font-size: medium;
+    }
+}
+
+/***********************TABLET************************/
+
+@media screen and (max-width: 1024) {
+    #footer {
+        display: flex;
+    }
+    .subject {
+        flex: 1;
+        justify-content: center;
+    }
+    .socials {
+        flex: 2;
+    }
+
+    #headerone {
+        background-color: #FBD686;
+        padding-bottom: 40px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger; 
+        width: 1500px;
+        background-image: url(../image/background.jpg);
+        background-size: cover;
+        display: flex;
+    }
+    
+}
