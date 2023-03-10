@@ -91,6 +91,7 @@ h2 {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    
  }
  
  ul {
@@ -116,7 +117,7 @@ img {
 
 /********************MOBILE************************/
 
-@media screen  and (max-width: 769px) { 
+@media screen  and (max-width: 768px) { 
     body {
         margin: 0;
     }
@@ -135,7 +136,7 @@ img {
 
     h2 {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 40px;
+        font-size: small;
         background-color: #006D77;
         border: solid;
         border-color: black;
@@ -167,28 +168,45 @@ img {
 
 /***********************TABLET************************/
 
-@media screen and (max-width: 1024) {
-    #footer {
-        display: flex;
-    }
-    .subject {
-        flex: 1;
-        justify-content: center;
-    }
-    .socials {
-        flex: 2;
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+    header {
+        padding-bottom: 100px;
     }
 
-    #headerone {
-        background-color: #FBD686;
-        padding-bottom: 40px;
-        text-align: center;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: larger; 
-        width: 1500px;
-        background-image: url(../image/background.jpg);
-        background-size: cover;
-        display: flex;
+    .picture {
+        height: 200px;
+        width: 200px;
+    }
+
+    h2 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+        background-color: #006D77;
+        border: solid;
+        border-color: black;
     }
     
+    .section {
+        display: contents;
+    }
+    
+    .article {
+        color: rgb(31, 43, 54);
+        margin: 0;
+        padding: 0px;
+    }
+
+    p {
+        padding-left: 40px;
+        padding-right: 20px;
+        font-weight: bolder;
+        bottom: 80px;
+        left: 100px
+        
+    }
+
+    ul{
+        font-size: medium;
+    }
+
 }
